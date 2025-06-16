@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "face-recognition"
+version = "0.1.0"
+description = ""
+authors = ["Dorus <doruskeijzer@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = "^2.7.1"
+torchvision = "^0.22.1"
+numpy = "^2.3.0"
+matplotlib = "^3.10.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
